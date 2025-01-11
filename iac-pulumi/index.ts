@@ -608,7 +608,7 @@ sudo systemctl enable amazon-cloudwatch-agent
         DYNAMODB_TABLE_NAME: emailTable.name,
         GCS_BUCKET_NAME: bucket.name,
         GCS_SERVICE_ACCOUNT_KEY: serviceAccountKey.privateKey,
-        MAILGUN_API_KEY: "ec0bb41b955148af4925350241a44b23-30b58138-00162bc5",
+        MAILGUN_API_KEY: "MAILGUN_KEY",
         MAILGUN_DOMAIN: "demo.gvsss3.com",
         GOOGLE_CLIENT_MAIL:
           "cloud-demo01@active-thunder-406602.iam.gserviceaccount.com",
