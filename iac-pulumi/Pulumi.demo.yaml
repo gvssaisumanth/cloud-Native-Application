@@ -1,0 +1,25 @@
+# config:
+#   aws:profile: demo
+#   aws:region: us-west-1
+#   iac-pulumi:profile: demo
+#   iac-pulumi:vpcCidrBlock: 10.1.0.0/16
+
+# config:
+#   aws:profile: dev
+#   aws:region: us-west-1
+#   iac-pulumi:profile: dev
+#   iac-pulumi:vpcCidrBlock: 10.0.0.0/16
+
+config:
+  aws:profile: demo
+  aws:region: us-east-1
+  gcp:project: active-thunder-406602
+  iac-pulumi:appPort: "3000"
+  iac-pulumi:devDomain: dev.gvsss3.com
+  iac-pulumi:ec2Ami: ami-0e4511608426e2400 #have to be latest ami
+  iac-pulumi:ec2InstanceType: t2.micro
+  iac-pulumi:prodDomain: demo.gvsss3.com
+  iac-pulumi:profile: demo
+  iac-pulumi:publicKeyPath: "/.ssh/ec2.pub"
+  iac-pulumi:vpcCidrBlock: 10.0.0.0/16
+  iac-pulumi:certificateArn: arn:aws:acm:us-east-1:154522917611:certificate/6a9f75d3-d396-42e8-a43a-e76c90d76202

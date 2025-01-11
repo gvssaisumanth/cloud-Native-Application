@@ -1,0 +1,30 @@
+{
+  "name": "cloud_infrastructure",
+  "version": "1.0.0",
+  "description": "This contains all the assignments and workflows of cloud computing",
+  "main": "healthEndpoint.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha tests/test.js --exit"
+  },
+  "author": "saisumanthgaali",
+  "license": "ISC",
+  "dependencies": {
+    "@pulumi/std": "^1.4.0",
+    "aws-sdk": "^2.1506.0",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "chai": "^4.3.10",
+    "csv-parser": "^3.0.0",
+    "email-validator": "^2.0.4",
+    "express": "^4.18.2",
+    "mocha": "^10.2.0",
+    "mysql2": "^3.6.1",
+    "node-statsd": "^0.1.1",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "sequelize": "^6.33.0",
+    "supertest": "^6.3.3",
+    "winston": "^3.11.0"
+  }
+}

@@ -1,0 +1,17 @@
+# config:
+#   aws:profile: dev
+#   aws:region: us-west-1
+#   iac-pulumi:profile: dev
+#   iac-pulumi:vpcCidrBlock: 10.0.0.0/16
+
+config:
+  aws:profile: dev
+  aws:region: us-east-1
+  iac-pulumi:appPort: 3000
+  iac-pulumi:profile: dev
+  iac-pulumi:ec2Ami: ami-0e4511608426e2400 #have to be latest ami
+  iac-pulumi:ec2InstanceType: t2.micro
+  iac-pulumi:publicKeyPath: "/.ssh/ec2.pub"
+  iac-pulumi:vpcCidrBlock: 10.0.0.0/16
+  devDomain: dev.gvsss3.com
+  prodDomain: demo.gvsss3.com
